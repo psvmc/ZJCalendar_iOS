@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF8BC381C802C2900C9600B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC371C802C2900C9600B /* AppDelegate.swift */; };
+		3FF8BC3A1C802C2900C9600B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC391C802C2900C9600B /* ViewController.swift */; };
+		3FF8BC3D1C802C2A00C9600B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8BC3B1C802C2A00C9600B /* Main.storyboard */; };
+		3FF8BC3F1C802C2A00C9600B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8BC3E1C802C2A00C9600B /* Assets.xcassets */; };
+		3FF8BC421C802C2A00C9600B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8BC401C802C2A00C9600B /* LaunchScreen.storyboard */; };
+		3FF8BC5B1C802D1700C9600B /* WHUCalendarCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC4D1C802D1600C9600B /* WHUCalendarCal.m */; };
+		3FF8BC5C1C802D1700C9600B /* WHUCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC4F1C802D1600C9600B /* WHUCalendarCell.m */; };
+		3FF8BC5D1C802D1700C9600B /* WHUCalendarFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC511C802D1600C9600B /* WHUCalendarFlowLayout.m */; };
+		3FF8BC5E1C802D1700C9600B /* WHUCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC531C802D1600C9600B /* WHUCalendarItem.m */; };
+		3FF8BC5F1C802D1700C9600B /* WHUCalendarPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC561C802D1600C9600B /* WHUCalendarPopView.m */; };
+		3FF8BC601C802D1700C9600B /* WHUCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC581C802D1600C9600B /* WHUCalendarView.m */; };
+		3FF8BC611C802D1700C9600B /* WHUCalendarYMSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8BC5A1C802D1600C9600B /* WHUCalendarYMSelectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FF8BC341C802C2900C9600B /* ZJCalendar_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJCalendar_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8BC371C802C2900C9600B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FF8BC391C802C2900C9600B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF8BC3C1C802C2A00C9600B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF8BC3E1C802C2A00C9600B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF8BC411C802C2A00C9600B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF8BC431C802C2A00C9600B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF8BC4C1C802D1600C9600B /* WHUCalendarCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarCal.h; sourceTree = "<group>"; };
+		3FF8BC4D1C802D1600C9600B /* WHUCalendarCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarCal.m; sourceTree = "<group>"; };
+		3FF8BC4E1C802D1600C9600B /* WHUCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarCell.h; sourceTree = "<group>"; };
+		3FF8BC4F1C802D1600C9600B /* WHUCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarCell.m; sourceTree = "<group>"; };
+		3FF8BC501C802D1600C9600B /* WHUCalendarFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarFlowLayout.h; sourceTree = "<group>"; };
+		3FF8BC511C802D1600C9600B /* WHUCalendarFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarFlowLayout.m; sourceTree = "<group>"; };
+		3FF8BC521C802D1600C9600B /* WHUCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarItem.h; sourceTree = "<group>"; };
+		3FF8BC531C802D1600C9600B /* WHUCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarItem.m; sourceTree = "<group>"; };
+		3FF8BC541C802D1600C9600B /* WHUCalendarMarcro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarMarcro.h; sourceTree = "<group>"; };
+		3FF8BC551C802D1600C9600B /* WHUCalendarPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarPopView.h; sourceTree = "<group>"; };
+		3FF8BC561C802D1600C9600B /* WHUCalendarPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarPopView.m; sourceTree = "<group>"; };
+		3FF8BC571C802D1600C9600B /* WHUCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarView.h; sourceTree = "<group>"; };
+		3FF8BC581C802D1600C9600B /* WHUCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarView.m; sourceTree = "<group>"; };
+		3FF8BC591C802D1600C9600B /* WHUCalendarYMSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarYMSelectView.h; sourceTree = "<group>"; };
+		3FF8BC5A1C802D1600C9600B /* WHUCalendarYMSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarYMSelectView.m; sourceTree = "<group>"; };
+		3FF8BC621C802D4200C9600B /* Bridge-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF8BC311C802C2900C9600B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF8BC2B1C802C2800C9600B = {
+			isa = PBXGroup;
+			children = (
+				3FF8BC361C802C2900C9600B /* ZJCalendar_iOS */,
+				3FF8BC351C802C2900C9600B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF8BC351C802C2900C9600B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8BC341C802C2900C9600B /* ZJCalendar_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF8BC361C802C2900C9600B /* ZJCalendar_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8BC621C802D4200C9600B /* Bridge-Header.h */,
+				3FF8BC491C802D1600C9600B /* Lib */,
+				3FF8BC371C802C2900C9600B /* AppDelegate.swift */,
+				3FF8BC391C802C2900C9600B /* ViewController.swift */,
+				3FF8BC3B1C802C2A00C9600B /* Main.storyboard */,
+				3FF8BC3E1C802C2A00C9600B /* Assets.xcassets */,
+				3FF8BC401C802C2A00C9600B /* LaunchScreen.storyboard */,
+				3FF8BC431C802C2A00C9600B /* Info.plist */,
+			);
+			path = ZJCalendar_iOS;
+			sourceTree = "<group>";
+		};
+		3FF8BC491C802D1600C9600B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8BC4A1C802D1600C9600B /* Lib-ObjectC */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		3FF8BC4A1C802D1600C9600B /* Lib-ObjectC */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8BC4B1C802D1600C9600B /* WHUCalendarView */,
+			);
+			path = "Lib-ObjectC";
+			sourceTree = "<group>";
+		};
+		3FF8BC4B1C802D1600C9600B /* WHUCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8BC4C1C802D1600C9600B /* WHUCalendarCal.h */,
+				3FF8BC4D1C802D1600C9600B /* WHUCalendarCal.m */,
+				3FF8BC4E1C802D1600C9600B /* WHUCalendarCell.h */,
+				3FF8BC4F1C802D1600C9600B /* WHUCalendarCell.m */,
+				3FF8BC501C802D1600C9600B /* WHUCalendarFlowLayout.h */,
+				3FF8BC511C802D1600C9600B /* WHUCalendarFlowLayout.m */,
+				3FF8BC521C802D1600C9600B /* WHUCalendarItem.h */,
+				3FF8BC531C802D1600C9600B /* WHUCalendarItem.m */,
+				3FF8BC541C802D1600C9600B /* WHUCalendarMarcro.h */,
+				3FF8BC551C802D1600C9600B /* WHUCalendarPopView.h */,
+				3FF8BC561C802D1600C9600B /* WHUCalendarPopView.m */,
+				3FF8BC571C802D1600C9600B /* WHUCalendarView.h */,
+				3FF8BC581C802D1600C9600B /* WHUCalendarView.m */,
+				3FF8BC591C802D1600C9600B /* WHUCalendarYMSelectView.h */,
+				3FF8BC5A1C802D1600C9600B /* WHUCalendarYMSelectView.m */,
+			);
+			path = WHUCalendarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF8BC331C802C2900C9600B /* ZJCalendar_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8BC461C802C2A00C9600B /* Build configuration list for PBXNativeTarget "ZJCalendar_iOS" */;
+			buildPhases = (
+				3FF8BC301C802C2900C9600B /* Sources */,
+				3FF8BC311C802C2900C9600B /* Frameworks */,
+				3FF8BC321C802C2900C9600B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJCalendar_iOS;
+			productName = ZJCalendar_iOS;
+			productReference = 3FF8BC341C802C2900C9600B /* ZJCalendar_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF8BC2C1C802C2800C9600B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张剑";
+				TargetAttributes = {
+					3FF8BC331C802C2900C9600B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6U6NNJD6PX;
+					};
+				};
+			};
+			buildConfigurationList = 3FF8BC2F1C802C2900C9600B /* Build configuration list for PBXProject "ZJCalendar_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF8BC2B1C802C2800C9600B;
+			productRefGroup = 3FF8BC351C802C2900C9600B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF8BC331C802C2900C9600B /* ZJCalendar_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF8BC321C802C2900C9600B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8BC421C802C2A00C9600B /* LaunchScreen.storyboard in Resources */,
+				3FF8BC3F1C802C2A00C9600B /* Assets.xcassets in Resources */,
+				3FF8BC3D1C802C2A00C9600B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF8BC301C802C2900C9600B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8BC5F1C802D1700C9600B /* WHUCalendarPopView.m in Sources */,
+				3FF8BC3A1C802C2900C9600B /* ViewController.swift in Sources */,
+				3FF8BC381C802C2900C9600B /* AppDelegate.swift in Sources */,
+				3FF8BC611C802D1700C9600B /* WHUCalendarYMSelectView.m in Sources */,
+				3FF8BC5C1C802D1700C9600B /* WHUCalendarCell.m in Sources */,
+				3FF8BC5E1C802D1700C9600B /* WHUCalendarItem.m in Sources */,
+				3FF8BC601C802D1700C9600B /* WHUCalendarView.m in Sources */,
+				3FF8BC5B1C802D1700C9600B /* WHUCalendarCal.m in Sources */,
+				3FF8BC5D1C802D1700C9600B /* WHUCalendarFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FF8BC3B1C802C2A00C9600B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF8BC3C1C802C2A00C9600B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF8BC401C802C2A00C9600B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF8BC411C802C2A00C9600B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF8BC441C802C2A00C9600B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FF8BC451C802C2A00C9600B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF8BC471C802C2A00C9600B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZJCalendar_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.psvmc.ZJCalendar-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		3FF8BC481C802C2A00C9600B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZJCalendar_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.psvmc.ZJCalendar-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/Bridge-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF8BC2F1C802C2900C9600B /* Build configuration list for PBXProject "ZJCalendar_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8BC441C802C2A00C9600B /* Debug */,
+				3FF8BC451C802C2A00C9600B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8BC461C802C2A00C9600B /* Build configuration list for PBXNativeTarget "ZJCalendar_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8BC471C802C2A00C9600B /* Debug */,
+				3FF8BC481C802C2A00C9600B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF8BC2C1C802C2800C9600B /* Project object */;
+}
