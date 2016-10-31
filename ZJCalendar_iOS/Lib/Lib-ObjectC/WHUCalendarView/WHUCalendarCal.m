@@ -134,8 +134,8 @@
     NSMutableArray* dateArr=[NSMutableArray array];
     NSCalendar *cal = self.curCalendar;
     NSDate* curDate=date;
-    NSRange days = [cal rangeOfUnit:NSDayCalendarUnit
-                             inUnit:NSMonthCalendarUnit
+    NSRange days = [cal rangeOfUnit:NSCalendarUnitDay
+                             inUnit:NSCalendarUnitMonth
                             forDate:curDate];
     NSDateComponents* firstDayOfMonth=[self componentOfDate:curDate];
     firstDayOfMonth.day=1;
@@ -288,7 +288,7 @@
 -(void)LunarForSolarYear:(WHUCalendarItem *)calendarDay andComponent:(NSDateComponents*)com{
     
     
-    NSString *solarYear = [self LunarForSolarYear:com.year Month:com.month Day:com.day];
+    NSString *solarYear = [self LunarForSolarYear:(int)com.year Month:(int)com.month Day:(int)com.day];
     
     NSArray *solarYear_arr= [solarYear componentsSeparatedByString:@"-"];
     

@@ -13,15 +13,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var calendarView: WHUCalendarView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let dateFormatter = DateFormatter();
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm";
+        dateFormatter.timeZone = TimeZone.current;
         calendarView.onDateSelectBlk = {
-            (date:NSDate!) -> Void in
-            print("点击了日期：\(date)");
-        }
+            (date:Date?) -> Void in
+            print("点击了日期：\(dateFormatter.string(from: date!))");
+        } 
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
